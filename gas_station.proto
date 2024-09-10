@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+message GasStation{
+    string name =1;
+    string address = 2;
+    float price_per_gallon =3;
+}
+
+message GasStationList{
+    repeated GasStation gas_stations =1;
+}
